@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Login from './components/Login';
-import Inicio from './pages/Inicio';
-import Chat from './pages/Chat';
-import Contas from './pages/Contas';
-import Analises from './pages/Analises';
-import Arquivos from './pages/Arquivos';
-import Configuracoes from './pages/Configuracoes';
+import Inicio from './pages/Inicio/Inicio';
+import Chat from './pages/Chat/Chat';
+import Contas from './pages/Contas/Contas';
+import Analises from './pages/Analises/Analises';
+import Arquivos from './pages/Arquivos/Arquivos';
+import Configuracoes from './pages/Configuracoes/Configuracoes';
+
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

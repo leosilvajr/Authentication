@@ -8,7 +8,7 @@ const Menus = [
   { title: "Analises", src: "Chart", path: "/analises" },
   { title: "Arquivos", src: "Folder", path: "/arquivos", gap: true },
   { title: "Configurações", src: "Setting", path: "/configuracoes" },
-  { title: "Sair", src: "Logout", path: "/login", isLogout: true }, // Novo item de logout
+  { title: "Sair", src: "Logout", path: "/login", isLogout: true }, 
 ];
 
 const Sidebar = ({ open, setOpen }) => {
