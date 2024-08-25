@@ -1,7 +1,7 @@
 # Authentication API
 
 ### Tela de Login
-![Tela de Login]([https://i.ibb.co/cFPdQ08/Screenshot-3.png](https://i.ibb.co/hVYmnQ4/Screenshot-1.png))
+![Tela de Login](https://i.ibb.co/hVYmnQ4/Screenshot-1.png)
 
 
 Este projeto é uma API RESTful para autenticação, desenvolvida para aprimorar meus conhecimentos e enriquecer meu portfólio. A seguir estão os detalhes das tecnologias utilizadas e as funcionalidades implementadas.
