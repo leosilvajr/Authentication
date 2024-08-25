@@ -51,9 +51,9 @@ namespace Authentication.API.Controllers
         }
 
         [HttpGet]
-        [Route("revoke")] //User revoke no LogOff
-        [Authorize("Bearer")] //Adicionando regra para que obriga autenticação
-        public IActionResult Revoke() // Não precisa passar parametro porque ja temos o Bearer
+        [Route("revoke")] 
+        [Authorize("Bearer")] 
+        public IActionResult Revoke() 
         {
             var username = User.Identity.Name;
             var result = _loginService.RevokeToken(username);
@@ -63,9 +63,9 @@ namespace Authentication.API.Controllers
         }
 
         [HttpGet]
-        [Route("getUsers")] //User revoke no LogOff
-        [Authorize("Bearer")] //Adicionando regra para que obriga autenticação
-        public IActionResult GetUsers() // Não precisa passar parametro porque ja temos o Bearer
+        [Route("getUsers")] 
+        [Authorize("Bearer")]
+        public IActionResult GetUsers() 
         {
             var result = _loginService.GetUsers();
 
