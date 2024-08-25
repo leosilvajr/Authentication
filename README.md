@@ -42,3 +42,19 @@ Este projeto é uma API RESTful para autenticação, desenvolvida para aprimorar
 1. **Clonar o Repositório:**
    ```bash
    git clone https://github.com/leosilvajr/RestWithASP-NET.git
+
+1. **Clonar o Repositório:**
+   ```bash
+   git clone https://github.com/leosilvajr/RestWithASP-NET.git
+
+1. **Clonar o Repositório:**
+   ```bash
+   git clone https://github.com/leosilvajr/RestWithASP-NET.git
+
+1. **Clonar o Repositório:**
+   ```bash
+   git clone https://github.com/leosilvajr/RestWithASP-NET.git
+
+1. **Clonar o Repositório:**
+   ```bash
+   git clone https://github.com/leosilvajr/RestWithASP-NET.git
