@@ -71,6 +71,14 @@ namespace Authentication.Persistence.Repository
             return true;
         }
 
+        public List<Users> GetUsers()
+        {
+            var user = _context.Users.ToList();
+            if (user is null) return null;
+
+            return user;
+        }
+
         public Users ValidateCredentials(UsersDTO user)
         {
             var pass = ComputeHash(user.Password);

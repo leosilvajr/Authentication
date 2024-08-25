@@ -61,5 +61,16 @@ namespace Authentication.API.Controllers
             if (!result) return BadRequest("Ivalid client request");
             return Ok("Logoff realizado com sucesso. Faça login novamente.");
         }
+
+        [HttpGet]
+        [Route("getUsers")] //User revoke no LogOff
+        [Authorize("Bearer")] //Adicionando regra para que obriga autenticação
+        public IActionResult GetUsers() // Não precisa passar parametro porque ja temos o Bearer
+        {
+            var result = _loginService.GetUsers();
+
+            if (result == null) return BadRequest("Falha ao carregar os usuários");
+            return Ok(result);
+        }
     }
 }

@@ -8,7 +8,7 @@ import Contas from './pages/Contas/Contas';
 import Analises from './pages/Analises/Analises';
 import Arquivos from './pages/Arquivos/Arquivos';
 import Configuracoes from './pages/Configuracoes/Configuracoes';
-
+import CriarConta from './pages/Contas/CriarConta'; // Importando o novo componente
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -34,6 +34,7 @@ function App() {
               <Route path="/analises" element={<Analises />} />
               <Route path="/arquivos" element={<Arquivos />} />
               <Route path="/configuracoes" element={<Configuracoes />} />
+              <Route path="/criarconta" element={<CriarConta />} /> {/* Adicionando a nova rota */}
             </Routes>
           </div>
         </div>

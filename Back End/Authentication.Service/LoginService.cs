@@ -1,7 +1,7 @@
 ﻿using Authentication.Domain.Configurations;
 using Authentication.Domain.DTO;
+using Authentication.Domain.Model;
 using Authentication.Persistence.Interface;
-using Authentication.Persistence.Repository;
 using Authentication.Service.Interface;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -20,6 +20,11 @@ namespace Authentication.Service
             _configurtion = configurtion;
             _usersRepository = userRepository;
             _tokenService = tokenService;
+        }
+
+        public List<Users> GetUsers()
+        {
+            return _usersRepository.GetUsers();
         }
 
         public TokenDTO ValidateCredentials(UsersDTO userCredentials)

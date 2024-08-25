@@ -1,4 +1,5 @@
 ﻿using Authentication.Domain.DTO;
+using Authentication.Domain.Model;
 
 namespace Authentication.Service.Interface
 {
@@ -9,5 +10,7 @@ namespace Authentication.Service.Interface
         TokenDTO ValidateCredentials(TokenDTO token);
 
         bool RevokeToken(string userName);
+
+        List<Users> GetUsers();
     }
 }

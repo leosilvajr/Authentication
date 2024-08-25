@@ -20,5 +20,6 @@ namespace Authentication.Persistence.Interface
 
         //GTP
         Users CreateUser(Users newUser);
+        List<Users> GetUsers();
     }
 }
