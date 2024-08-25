@@ -40,22 +40,5 @@ Este projeto é uma API RESTful para autenticação, desenvolvida para aprimorar
 ## Como Rodar o Projeto
 
 1. **Clonar o Repositório:**
-   ```bash
    git clone https://github.com/leosilvajr/RestWithASP-NET.git
-
-   Configurar o Banco de Dados:
-
-2. **Configurar o Banco de Dados:**
-  Certifique-se de que o SQL Server está instalado e configurado.
-  Atualize a string de conexão no arquivo appsettings.json para apontar para seu banco de dados.
-
-3. **Executar Migrations:**
-  dotnet ef database update
-
-4. **Iniciar a API:**
-   dotnet run
-
-5. **Rodar o Frontend: Navegue até o diretório do frontend e execute:**
-   npm install
-   npm start
 
